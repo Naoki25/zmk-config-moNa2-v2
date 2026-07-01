@@ -173,10 +173,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '4':
-  - ESCAPE
+  - {t: ▽, type: trans}
   - Ctl+-
   - UP ARROW
-  - Ctl++
+  - Ctl+;
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BRIGHTNESS DEC
@@ -194,7 +194,7 @@ layers:
   - Gui+DOWN ARROW
   - Gui+RIGHT ARROW
   - END
-  - LEFT SHIFT
+  - {t: ▽, type: trans}
   - Ctl+PAGE UP
   - Sft+Ctl+DOWN ARROW
   - Ctl+PAGE DOWN
