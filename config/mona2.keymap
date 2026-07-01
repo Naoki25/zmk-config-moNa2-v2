@@ -16,7 +16,10 @@
     retro-tap;
 };
 
-&lt { tapping-term-ms = <400>; };
+&lt {
+    quick-tap-ms = <300>;
+    flavor = "balanced";
+};
 
 / {
     combos {
