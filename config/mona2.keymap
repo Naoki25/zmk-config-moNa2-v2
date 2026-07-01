@@ -16,9 +16,7 @@
     retro-tap;
 };
 
-&lt {
-    tapping-term-ms = <400>;
-};
+&lt { tapping-term-ms = <400>; };
 
 / {
     combos {
@@ -92,7 +90,7 @@
 
         combo_date {
             timeout-ms = <50>;
-            bindings = <&kp LS(SEMICOLON)>;
+            bindings = <&kp LC(SEMICOLON)>;
             key-positions = <19 20>;
         };
 
@@ -187,7 +185,7 @@
         layer_1 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                    &trans              &kp HOME  &kp PAGE_UP    &kp END   &trans
-&trans  &trans  &trans  &trans  &trans            &trans  &kp LA(LEFT_ARROW)  &mkp MB1  &mkp MB2       &mkp MB3  &kp LA(RIGHT)
+&trans  &trans  &trans  &trans  &trans            &trans  &kp LA(LEFT_ARROW)  &mkp MB3  &mkp MB1       &mkp MB2  &kp LA(RIGHT)
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans              &trans    &kp PAGE_DOWN  &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                                 &trans
             >;
@@ -221,7 +219,7 @@
             bindings = <
 &kp ESCAPE        &kp LC(MINUS)    &kp UP_ARROW            &kp LC(PLUS)       &trans                               &trans    &kp C_BRIGHTNESS_DEC  &kp LG(UP_ARROW)    &kp C_BRIGHTNESS_INC  &trans
 &kp LS(LC(LEFT))  &kp LEFT_ARROW   &kp DOWN_ARROW          &kp RIGHT_ARROW    &kp LS(LC(RIGHT))            &trans  &kp HOME  &kp LG(LEFT_ARROW)    &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)   &kp END
-&kp LEFT_SHIFT    &kp LC(PAGE_UP)  &kp LS(LC(DOWN_ARROW))  &kp LC(PAGE_DOWN)  &trans             &trans    &trans  &trans    &kp K_MUTE2           &kp C_VOLUME_DOWN   &kp C_VOLUME_UP       &trans
+&kp LEFT_SHIFT    &kp LC(PAGE_UP)  &kp LS(LC(DOWN_ARROW))  &kp LC(PAGE_DOWN)  &trans             &trans    &trans  &trans    &kp K_MUTE            &kp C_VOLUME_DOWN   &kp C_VOLUME_UP       &trans
 &trans            &trans           &trans                  &trans             &trans             &trans    &trans  &trans                                                                    &trans
             >;
 
