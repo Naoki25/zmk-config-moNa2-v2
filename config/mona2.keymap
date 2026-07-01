@@ -228,9 +228,9 @@
 
         layer_4 {
             bindings = <
-&kp ESCAPE        &kp LC(MINUS)    &kp UP_ARROW            &kp LC(PLUS)       &trans                               &trans    &kp C_BRIGHTNESS_DEC  &kp LG(UP_ARROW)    &kp C_BRIGHTNESS_INC  &trans
+&trans            &kp LC(MINUS)    &kp UP_ARROW            &kp LC(SEMICOLON)  &trans                               &trans    &kp C_BRIGHTNESS_DEC  &kp LG(UP_ARROW)    &kp C_BRIGHTNESS_INC  &trans
 &kp LS(LC(LEFT))  &kp LEFT_ARROW   &kp DOWN_ARROW          &kp RIGHT_ARROW    &kp LS(LC(RIGHT))            &trans  &kp HOME  &kp LG(LEFT_ARROW)    &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)   &kp END
-&kp LEFT_SHIFT    &kp LC(PAGE_UP)  &kp LS(LC(DOWN_ARROW))  &kp LC(PAGE_DOWN)  &trans             &trans    &trans  &trans    &trans                &trans              &trans                &trans
+&trans            &kp LC(PAGE_UP)  &kp LS(LC(DOWN_ARROW))  &kp LC(PAGE_DOWN)  &trans             &trans    &trans  &trans    &trans                &trans              &trans                &trans
 &trans            &trans           &trans                  &trans             &trans             &trans    &trans  &trans                                                                    &trans
             >;
 
