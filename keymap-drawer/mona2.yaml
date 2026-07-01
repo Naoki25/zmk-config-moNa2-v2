@@ -61,9 +61,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Alt+LEFT ARROW
+  - '&mkp MB3'
   - '&mkp MB1'
   - '&mkp MB2'
-  - '&mkp MB3'
   - Alt+RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -202,7 +202,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - MUTE2
+  - MUTE
   - VOLUME DOWN
   - VOLUME UP
   - {t: ▽, type: trans}
@@ -325,6 +325,6 @@ combos:
 - p: [18, 19]
   k: Sft+Ctl+L
 - p: [19, 20]
-  k: Sft+;
+  k: Ctl+;
 - p: [31, 32]
   k: /
