@@ -21,7 +21,7 @@ layers:
   - J
   - K
   - L
-  - ;
+  - ','
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -32,7 +32,7 @@ layers:
   - N
   - M
   - '&mkp MB1'
-  - ','
+  - '&mkp MB2'
   - .
   - LCTRL
   - LEFT WIN
@@ -50,9 +50,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - HOME
+  - {t: ▽, type: trans}
   - PAGE UP
-  - END
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -60,10 +60,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&mkp MB4'
-  - '&mkp MB3'
-  - '&mkp MB1'
-  - '&mkp MB2'
+  - PG DN
   - '&mkp MB5'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -74,8 +73,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - PAGE DOWN
-  - {t: ▽, type: trans}
+  - '&mkp MB3'
+  - '&mkp MB1'
+  - '&mkp MB2'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -182,14 +182,14 @@ layers:
   - BRIGHTNESS DEC
   - Gui+UP ARROW
   - BRIGHTNESS INC
-  - {t: ▽, type: trans}
+  - HOME
   - Sft+Ctl+LEFT
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
   - Sft+Ctl+RIGHT
   - {t: ▽, type: trans}
-  - HOME
+  - {t: ▽, type: trans}
   - Gui+LEFT ARROW
   - Gui+DOWN ARROW
   - Gui+RIGHT ARROW
