@@ -195,10 +195,10 @@
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans    &kp PAGE_UP  &trans    &trans
-&trans  &trans  &trans  &trans  &trans            &trans  &trans  &mkp MB4  &kp PG_DN    &mkp MB5  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mkp MB3  &mkp MB1     &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                   &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans    &kp PAGE_UP  &kp DELETE  &trans
+&trans  &trans  &trans  &trans  &trans            &trans  &trans  &mkp MB4  &kp PG_DN    &mkp MB5    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mkp MB3  &mkp MB1     &mkp MB2    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                     &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -206,10 +206,10 @@
 
         layer_2 {
             bindings = <
-&trans          &kp AMPERSAND    &kp QUESTION  &kp INT3   &trans                                             &trans         &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp EQUAL      &kp LS(INT_YEN)
-&kp LEFT_BRACE  &kp DOLLAR       &kp PERCENT   &kp CARET  &trans                                     &trans  &kp SEMICOLON  &kp RIGHT_BRACKET  &kp BACKSLASH         &kp LESS_THAN  &kp GREATER_THAN
-&trans          &kp EXCLAMATION  &kp AT_SIGN   &kp HASH   &kp LA(PRINTSCREEN)  &screen_shot_macro    &trans  &kp SQT        &kp RIGHT_BRACE    &kp PIPE              &kp PLUS       &kp LS(INT1)
-&trans          &trans           &trans        &trans     &trans               &trans                &trans  &trans                                                                 &trans
+&kp EXCLAMATION  &kp AT_SIGN    &kp HASH        &kp DOLLAR    &kp PERCENT                                        &trans         &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp EQUAL      &kp LS(INT_YEN)
+&kp CARET        &kp AMPERSAND  &kp LEFT_BRACE  &kp QUESTION  &kp INT3                                   &trans  &kp SEMICOLON  &kp RIGHT_BRACKET  &kp BACKSLASH         &kp LESS_THAN  &kp GREATER_THAN
+&trans           &trans         &trans          &trans        &kp LA(PRINTSCREEN)  &screen_shot_macro    &trans  &kp SQT        &kp RIGHT_BRACE    &kp PIPE              &kp PLUS       &kp LS(INT1)
+&trans           &trans         &trans          &trans        &trans               &trans                &trans  &trans                                                                 &trans
             >;
 
             sensor-bindings = <&scroll_right_left>;
