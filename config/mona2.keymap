@@ -16,7 +16,9 @@
     retro-tap;
 };
 
-&lt { tapping-term-ms = <400>; };
+&lt { 
+　　tapping-term-ms = <400>; 
+};
 
 / {
     combos {
@@ -28,16 +30,10 @@
             bindings = <&kp ESC>;
         };
 
-        combo_select_all {
+        combo_paste_value {
             timeout-ms = <50>;
-            key-positions = <10 11>;
-            bindings = <&kp LC(A)>;
-        };
-
-        combo_copy_right {
-            timeout-ms = <50>;
-            key-positions = <13 14>;
-            bindings = <&kp LC(R)>;
+            bindings = <&kp LS(LC(V))>;
+            key-positions = <1 2>;
         };
 
         combo_cut {
@@ -46,10 +42,10 @@
             bindings = <&kp LC(X)>;
         };
 
-        combo_copy {
+        combo_select_all {
             timeout-ms = <50>;
-            key-positions = <12 13>;
-            bindings = <&kp LC(C)>;
+            key-positions = <10 11>;
+            bindings = <&kp LC(A)>;
         };
 
         combo_paste {
@@ -58,37 +54,50 @@
             bindings = <&kp LC(V)>;
         };
 
+        combo_copy {
+            timeout-ms = <50>;
+            key-positions = <12 13>;
+            bindings = <&kp LC(C)>;
+        };
+
+        combo_copy_right {
+            timeout-ms = <50>;
+            key-positions = <13 14>;
+            bindings = <&kp LC(R)>;
+        };
+
         combo_copy_down {
+            timeout-ms = <50>;
             bindings = <&kp LC(D)>;
             key-positions = <23 24>;
         };
 
-        combo_paste_value {
-            bindings = <&kp LS(LC(V))>;
-            key-positions = <1 2>;
+        combo_home {
+            timeout-ms = <50>;
+            bindings = <&kp LC(HOME)>;
+            key-positions = <8 9>;
+        };
+
+        combo_replace {
+            timeout-ms = <50>;
+            bindings = <&kp LC(H)>;
+            key-positions = <16 17>;
         };
 
         combo_list {
+            timeout-ms = <50>;
             bindings = <&kp LS(LC(L))>;
             key-positions = <18 19>;
         };
 
         combo_date {
+            timeout-ms = <50>;
             bindings = <&kp LS(SEMICOLON)>;
             key-positions = <19 20>;
         };
 
-        combo_replace {
-            bindings = <&kp LC(H)>;
-            key-positions = <16 17>;
-        };
-
-        combo_home {
-            bindings = <&kp LC(HOME)>;
-            key-positions = <8 9>;
-        };
-
         combo_center_dot {
+            timeout-ms = <50>;
             bindings = <&kp SLASH>;
             key-positions = <31 32>;
         };
