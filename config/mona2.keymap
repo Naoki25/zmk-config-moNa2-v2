@@ -16,8 +16,8 @@
     retro-tap;
 };
 
-&lt { 
-　　tapping-term-ms = <400>; 
+&lt {
+    tapping-term-ms = <400>;
 };
 
 / {
