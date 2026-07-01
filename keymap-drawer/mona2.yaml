@@ -52,7 +52,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - PAGE UP
-  - {t: ▽, type: trans}
+  - DELETE
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -87,21 +87,21 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '2':
-  - {t: ▽, type: trans}
-  - '&'
-  - '?'
-  - INT3
-  - {t: ▽, type: trans}
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
   - {t: ▽, type: trans}
   - '*'
   - (
   - '='
   - Sft+INT YEN
-  - '{'
-  - $
-  - '%'
   - ^
-  - {t: ▽, type: trans}
+  - '&'
+  - '{'
+  - '?'
+  - INT3
   - {t: ▽, type: trans}
   - ;
   - ']'
@@ -109,9 +109,9 @@ layers:
   - <
   - '>'
   - {t: ▽, type: trans}
-  - '!'
-  - '@'
-  - '#'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Alt+PRINTSCREEN
   - '&screen_shot_macro'
   - {t: ▽, type: trans}
