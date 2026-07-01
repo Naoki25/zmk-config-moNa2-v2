@@ -30,32 +30,42 @@
 
         combo_ctrl_a {
             timeout-ms = <50>;
-            key-positions = <13 14>;
+            key-positions = <10 11>;
             bindings = <&kp LC(A)>;
         };
 
-        combo_ctrl_z {
+        combo_ctrl_r {
             timeout-ms = <50>;
-            key-positions = <22 23>;
-            bindings = <&kp LC(Z)>;
+            key-positions = <13 14>;
+            bindings = <&kp LC(R)>;
         };
 
         combo_ctrl_x {
             timeout-ms = <50>;
-            key-positions = <24 23>;
+            key-positions = <2 3>;
             bindings = <&kp LC(X)>;
         };
 
         combo_ctrl_c {
             timeout-ms = <50>;
-            key-positions = <25 24>;
+            key-positions = <12 13>;
             bindings = <&kp LC(C)>;
         };
 
         combo_ctrl_v {
             timeout-ms = <50>;
-            key-positions = <26 25>;
+            key-positions = <11 12>;
             bindings = <&kp LC(V)>;
+        };
+
+        combo_ctrl_d {
+            bindings = <&kp LC(D)>;
+            key-positions = <23 24>;
+        };
+
+        combo_ctrl_shift_v {
+            bindings = <&kp LS(LC(V))>;
+            key-positions = <1 2>;
         };
     };
 
