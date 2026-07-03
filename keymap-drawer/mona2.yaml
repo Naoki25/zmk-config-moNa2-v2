@@ -30,7 +30,7 @@ layers:
   - {t: '[', h: '5'}
   - '&bracket_macro'
   - N
-  - {t: Sft+LEFT CONTROL, h: M}
+  - {t: M, h: Sft+LEFT CONTROL}
   - '&mkp MB1'
   - '&mkp MB2'
   - {t: ., h: RIGHT SHIFT}
