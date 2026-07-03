@@ -179,6 +179,30 @@
 
             tap-ms = <20>;
         };
+
+        tog_ls: toggle_layout_shift {
+            compatible = "zmk,behavior-layout-shift-toggle";
+            #binding-cells = <0>;
+            toggle-mode = "flip";
+            layout-maps = <&layout_shift_map_us_to_jis>;
+            label = "LAYOUT_SHIFT_TOGGLE";
+        };
+
+        tog_ls_on: toggle_layout_shift_on {
+            compatible = "zmk,behavior-layout-shift-toggle";
+            #binding-cells = <0>;
+            toggle-mode = "on";
+            layout-maps = <&layout_shift_map_us_to_jis>;
+            label = "LAYOUT_SHIFT_TOGGLE_ON";
+        };
+
+        tog_ls_off: toggle_layout_shift_off {
+            compatible = "zmk,behavior-layout-shift-toggle";
+            #binding-cells = <0>;
+            toggle-mode = "off";
+            layout-maps = <&layout_shift_map_us_to_jis>;
+            label = "LAYOUT_SHIFT_TOGGLE_OFF";
+        };
     };
 
     keymap {
