@@ -38,11 +38,11 @@ layers:
   - LEFT WIN
   - LEFT ALT
   - {t: LANGUAGE 2, h: '4'}
-  - {t: SPACE, h: '2'}
+  - {t: TAB, h: '2'}
   - BACKSPACE
   - {t: LANGUAGE 1, h: '3'}
   - {t: ENTER, h: '1'}
-  - Ctl+TAB
+  - SPACE
   '1':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
