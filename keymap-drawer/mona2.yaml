@@ -27,7 +27,7 @@ layers:
   - C
   - V
   - B
-  - {t: '[', h: '5'}
+  - {t: '@', h: '5'}
   - '&bracket_macro'
   - N
   - {t: M, h: Sft+LEFT CONTROL}
@@ -88,24 +88,24 @@ layers:
   - {t: ▽, type: trans}
   '2':
   - '!'
-  - '@'
+  - '"'
   - '#'
   - $
   - '%'
   - {t: ▽, type: trans}
-  - '*'
   - (
-  - '='
-  - Sft+INT YEN
+  - )
   - ^
+  - Sft+INT YEN
   - '&'
-  - '{'
+  - ''''
+  - '`'
   - '?'
   - INT3
   - {t: ▽, type: trans}
   - ;
+  - '['
   - ']'
-  - \
   - <
   - '>'
   - {t: ▽, type: trans}
@@ -115,11 +115,11 @@ layers:
   - Alt+PRINTSCREEN
   - '&screen_shot_macro'
   - {t: ▽, type: trans}
-  - ''''
+  - ':'
+  - '{'
   - '}'
-  - '|'
-  - +
-  - Sft+INT1
+  - '~'
+  - _
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -138,8 +138,8 @@ layers:
   - '7'
   - '8'
   - '9'
-  - Sft+;
-  - '"'
+  - +
+  - '*'
   - F6
   - F7
   - F8
@@ -161,7 +161,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - _
+  - '='
   - Sft+INTERNATIONAL 1
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -176,7 +176,7 @@ layers:
   - {t: ▽, type: trans}
   - Ctl+-
   - UP ARROW
-  - Ctl+;
+  - Ctl++
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BRIGHTNESS DEC
