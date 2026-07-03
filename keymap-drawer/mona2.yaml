@@ -39,7 +39,7 @@ layers:
   - LEFT ALT
   - {t: LANGUAGE 2, h: '4'}
   - {t: TAB, h: '2'}
-  - A
+  - BACKSPACE
   - {t: LANGUAGE 1, h: '3'}
   - {t: ENTER, h: '1'}
   - {t: SPACE, h: RIGHT ALT}
