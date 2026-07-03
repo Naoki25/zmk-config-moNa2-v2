@@ -197,7 +197,7 @@
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans    &kp PAGE_UP  &kp DELETE  &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans    &kp PAGE_UP  &trans      &tog_ls
 &trans  &trans  &trans  &trans  &trans            &trans  &trans  &mkp MB4  &kp PG_DN    &mkp MB5    &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mkp MB3  &mkp MB1     &mkp MB2    &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                     &trans
