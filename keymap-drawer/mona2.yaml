@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - {t: P, h: '1'}
-  - A
+  - {t: A, h: LEFT CONTROL}
   - S
   - D
   - F
@@ -21,7 +21,7 @@ layers:
   - J
   - K
   - L
-  - ','
+  - {t: ',', h: RIGHT CONTROL}
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -30,11 +30,11 @@ layers:
   - {t: '[', h: '5'}
   - '&bracket_macro'
   - N
-  - M
+  - {t: Sft+LEFT CONTROL, h: M}
   - '&mkp MB1'
   - '&mkp MB2'
-  - .
-  - LCTRL
+  - {t: ., h: RIGHT SHIFT}
+  - {t: LEFT CONTROL, h: DELETE}
   - LEFT WIN
   - LEFT ALT
   - {t: LANGUAGE 2, h: '4'}
@@ -42,7 +42,7 @@ layers:
   - BACKSPACE
   - {t: LANGUAGE 1, h: '3'}
   - {t: ENTER, h: '1'}
-  - SPACE
+  - {t: SPACE, h: RIGHT ALT}
   '1':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
