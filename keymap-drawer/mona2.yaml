@@ -52,8 +52,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - PAGE UP
-  - DELETE
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: '&tog_ls', type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
