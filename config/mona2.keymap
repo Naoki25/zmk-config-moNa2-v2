@@ -180,6 +180,12 @@
             tap-ms = <20>;
         };
 
+        kp: key_press {
+            compatible = "zmk,behavior-layout-shift-key-press";
+            #binding-cells = <1>;
+            label = "LAYOUT_SHIFT_KEY_PRESS";
+        };
+
         tog_ls: toggle_layout_shift {
             compatible = "zmk,behavior-layout-shift-toggle";
             #binding-cells = <0>;
