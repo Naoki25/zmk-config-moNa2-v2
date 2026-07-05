@@ -53,7 +53,7 @@ layers:
   - {t: ▽, type: trans}
   - PAGE UP
   - {t: ▽, type: trans}
-  - {t: '&tog_ls', type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -85,7 +85,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&tog_ls'
   '2':
   - '!'
   - '"'
@@ -307,25 +307,37 @@ combos:
   l: [default]
 - p: [1, 2]
   k: Sft+Ctl+V
+  l: [default]
 - p: [2, 3]
   k: Ctl+X
+  l: [default]
 - p: [10, 11]
   k: Ctl+A
+  l: [default]
 - p: [11, 12]
   k: Ctl+V
+  l: [default]
 - p: [12, 13]
   k: Ctl+C
+  l: [default]
 - p: [13, 14]
   k: Ctl+R
+  l: [default]
 - p: [23, 24]
   k: Ctl+D
+  l: [default]
 - p: [8, 9]
   k: Ctl+HOME
+  l: [default]
 - p: [16, 17]
   k: Ctl+H
+  l: [default]
 - p: [18, 19]
   k: Sft+Ctl+L
+  l: [default]
 - p: [19, 20]
   k: Ctl+;
+  l: [default]
 - p: [31, 32]
   k: /
+  l: [default]
