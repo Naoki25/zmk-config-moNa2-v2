@@ -12,7 +12,7 @@ layers:
   - O
   - {t: P, h: '1'}
   - {t: A, h: LEFT CONTROL}
-  - S
+  - {t: S, h: LEFT SHIFT}
   - D
   - F
   - G
@@ -20,9 +20,9 @@ layers:
   - H
   - J
   - K
-  - L
+  - {t: L, h: RIGHT SHIFT}
   - {t: ',', h: RIGHT CONTROL}
-  - {t: Z, h: LEFT SHIFT}
+  - {t: Z, h: toggle}
   - X
   - C
   - V
@@ -33,16 +33,16 @@ layers:
   - {t: M, h: Sft+LEFT CONTROL}
   - '&mkp MB1'
   - '&mkp MB2'
-  - {t: ., h: RIGHT SHIFT}
-  - {t: LEFT CONTROL, h: DELETE}
+  - .
+  - {t: DELETE, h: LEFT CONTROL}
   - LEFT WIN
-  - {t: LEFT ALT, h: LANG2}
+  - {t: LANG2, h: LEFT ALT}
   - {t: SPACE, h: '4'}
   - {t: TAB, h: '2'}
   - BACKSPACE
-  - {t: LANGUAGE 1, h: '3'}
+  - {t: LANG1, h: '3'}
   - {t: ENTER, h: '1'}
-  - {t: SPACE, h: '-'}
+  - {t: '-', h: RIGHT ALT}
   '1':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -93,21 +93,21 @@ layers:
   - $
   - '%'
   - {t: ▽, type: trans}
-  - (
-  - )
-  - ^
-  - Sft+INT YEN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&'
   - ''''
-  - '`'
   - '?'
+  - '~'
   - INT3
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ;
-  - '['
-  - ']'
-  - <
-  - '>'
+  - ':'
+  - ^
+  - Sft+INT3
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -115,11 +115,11 @@ layers:
   - Alt+PRINTSCREEN
   - '&screen_shot_macro'
   - {t: ▽, type: trans}
-  - ':'
-  - '{'
-  - '}'
-  - '~'
-  - _
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
