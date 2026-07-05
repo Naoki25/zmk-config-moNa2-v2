@@ -26,7 +26,6 @@
 / {
     combos {
         compatible = "zmk,combos";
-        layers = <0>;
 
         combo_escape {
             timeout-ms = <50>;
@@ -37,74 +36,86 @@
 
         combo_paste_value {
             timeout-ms = <50>;
-            bindings = <&kp LS(LC(V))>;
             key-positions = <1 2>;
+            bindings = <&kp LS(LC(V))>;
+            layers = <0>;
         };
 
         combo_cut {
             timeout-ms = <50>;
             key-positions = <2 3>;
             bindings = <&kp LC(X)>;
+            layers = <0>;
         };
 
         combo_select_all {
             timeout-ms = <50>;
             key-positions = <10 11>;
             bindings = <&kp LC(A)>;
+            layers = <0>;
         };
 
         combo_paste {
             timeout-ms = <50>;
             key-positions = <11 12>;
             bindings = <&kp LC(V)>;
+            layers = <0>;
         };
 
         combo_copy {
             timeout-ms = <50>;
             key-positions = <12 13>;
             bindings = <&kp LC(C)>;
+            layers = <0>;
         };
 
         combo_copy_right {
             timeout-ms = <50>;
             key-positions = <13 14>;
             bindings = <&kp LC(R)>;
+            layers = <0>;
         };
 
         combo_copy_down {
             timeout-ms = <50>;
-            bindings = <&kp LC(D)>;
             key-positions = <23 24>;
+            bindings = <&kp LC(D)>;
+            layers = <0>;
         };
 
         combo_home {
             timeout-ms = <50>;
-            bindings = <&kp LC(HOME)>;
             key-positions = <8 9>;
+            bindings = <&kp LC(HOME)>;
+            layers = <0>;
         };
 
         combo_replace {
             timeout-ms = <50>;
-            bindings = <&kp LC(H)>;
             key-positions = <16 17>;
+            bindings = <&kp LC(H)>;
+            layers = <0>;
         };
 
         combo_list {
             timeout-ms = <50>;
-            bindings = <&kp LS(LC(L))>;
             key-positions = <18 19>;
+            bindings = <&kp LS(LC(L))>;
+            layers = <0>;
         };
 
         combo_date {
             timeout-ms = <50>;
-            bindings = <&kp LC(SEMICOLON)>;
             key-positions = <19 20>;
+            bindings = <&kp LC(SEMICOLON)>;
+            layers = <0>;
         };
 
         combo_center_dot {
             timeout-ms = <50>;
-            bindings = <&kp SLASH>;
             key-positions = <31 32>;
+            bindings = <&kp SLASH>;
+            layers = <0>;
         };
     };
 
@@ -152,14 +163,14 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LEFT>;
-            label = "MCR_BRACKET";
+            label = "Parenthesis_MACRO";
         };
 
         bracket_macro: bracket_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT>;
-            label = "SQUARE_BRACKET_MACRO";
+            label = "BRACKET_MACRO";
         };
     };
 
@@ -168,7 +179,6 @@
             compatible = "zmk,behavior-hold-tap";
             label = "LAYER_TAP_TO_0";
             bindings = <&mo>, <&screen_shot_macro>;
-
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
@@ -236,10 +246,10 @@
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans    &kp PAGE_UP  &trans    &tog_ls
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans    &kp PAGE_UP  &trans    &trans
 &trans  &trans  &trans  &trans  &trans            &trans  &trans  &mkp MB4  &kp PG_DN    &mkp MB5  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mkp MB3  &mkp MB1     &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                   &tog_ls
             >;
 
             sensor-bindings = <&scroll_up_down>;
