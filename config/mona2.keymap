@@ -26,6 +26,7 @@
 / {
     combos {
         compatible = "zmk,combos";
+        layers = <0>;
 
         combo_escape {
             timeout-ms = <50>;
@@ -139,21 +140,21 @@
                 <&kp S>;
         };
 
-        bt0: bt1 {
+        bt0: bt0 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&bt BT_SEL 0 &to 1>;
-            label = "BT1";
+            label = "BT0";
         };
 
-        parenthesis_macro: mcr_bracket {
+        parenthesis_macro: parenthesis_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LEFT>;
             label = "MCR_BRACKET";
         };
 
-        bracket_macro: square_bracket_macro {
+        bracket_macro: bracket_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT>;
