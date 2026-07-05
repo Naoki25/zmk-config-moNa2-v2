@@ -179,6 +179,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "LAYER_TAP_TO_0";
             bindings = <&mo>, <&screen_shot_macro>;
+
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
@@ -235,10 +236,10 @@
 
         default_layer {
             bindings = <
-&kp Q                    &kp W         &kp E               &kp R        &kp T                                           &kp Y        &kp U                   &kp I     &kp O     &lt 1 P
-&mt LEFT_CONTROL A       &kp S         &kp D               &kp F        &kp G                       &bracket_macro      &kp H        &kp J                   &kp K     &kp L     &mt RIGHT_CONTROL COMMA
-&mt LEFT_SHIFT Z         &kp X         &kp C               &kp V        &kp B      &lt 5 AT_SIGN    &parenthesis_macro  &kp N        &mt LS(LEFT_CONTROL) M  &mkp MB1  &mkp MB2  &mt RIGHT_SHIFT PERIOD
-&mt DELETE LEFT_CONTROL  &kp LEFT_WIN  &mt LANG2 LEFT_ALT  &lt 4 SPACE  &lt 2 TAB  &kp BACKSPACE    &lt 3 LANGUAGE_1    &lt 1 ENTER                                              &mt MINUS SPACE
+&kp Q                    &kp W             &kp E               &kp R        &kp T                                           &kp Y        &kp U                   &kp I     &kp O              &lt 1 P
+&mt LEFT_CONTROL A       &mt LEFT_SHIFT S  &kp D               &kp F        &kp G                       &bracket_macro      &kp H        &kp J                   &kp K     &mt RIGHT_SHIFT L  &mt RIGHT_CONTROL COMMA
+&kt Z                    &kp X             &kp C               &kp V        &kp B      &lt 5 AT_SIGN    &parenthesis_macro  &kp N        &mt LS(LEFT_CONTROL) M  &mkp MB1  &mkp MB2           &kp PERIOD
+&mt LEFT_CONTROL DELETE  &kp LEFT_WIN      &mt LEFT_ALT LANG2  &lt 4 SPACE  &lt 2 TAB  &kp BACKSPACE    &lt 3 LANG1         &lt 1 ENTER                                                       &mt RIGHT_ALT MINUS
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -257,10 +258,10 @@
 
         layer_2 {
             bindings = <
-&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH   &kp DOLLAR    &kp PERCENT                                        &trans         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CARET      &kp LS(INT_YEN)
-&kp AMPERSAND    &kp SINGLE_QUOTE   &kp GRAVE  &kp QUESTION  &kp INT3                                   &trans  &kp SEMICOLON  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LESS_THAN  &kp GREATER_THAN
-&trans           &trans             &trans     &trans        &kp LA(PRINTSCREEN)  &screen_shot_macro    &trans  &kp COLON      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp TILDE      &kp UNDERSCORE
-&trans           &trans             &trans     &trans        &trans               &trans                &trans  &trans                                                                     &trans
+&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH      &kp DOLLAR  &kp PERCENT                                        &trans  &trans         &trans     &trans     &trans
+&kp AMPERSAND    &kp SINGLE_QUOTE   &kp QUESTION  &kp TILDE   &kp INT3                                   &trans  &trans  &kp SEMICOLON  &kp COLON  &kp CARET  &kp LS(INT3)
+&trans           &trans             &trans        &trans      &kp LA(PRINTSCREEN)  &screen_shot_macro    &trans  &trans  &trans         &trans     &trans     &trans
+&trans           &trans             &trans        &trans      &trans               &trans                &trans  &trans                                       &trans
             >;
 
             sensor-bindings = <&scroll_right_left>;
