@@ -22,7 +22,7 @@ layers:
   - K
   - {t: L, h: RIGHT SHIFT}
   - {t: ',', h: RIGHT CONTROL}
-  - {t: Z, h: toggle}
+  - Z
   - X
   - C
   - V
